@@ -17,8 +17,8 @@ We use **Google Antigravity** paired with the **[Superpowers](https://github.com
             ┌──────────────────┴──────────────────┐
             ▼                                     ▼
 ┌───────────────────────────────┐   ┌───────────────────────────────┐
-│     Claude 3.7 / 3.5 Sonnet   │   │  Gemini 4 Argon / Hydrogen   │
-│          / Claude Opus        │   │    or Gemini 3.8 Flash (High) │
+│       Claude 5.5 / Opus       │   │  Gemini 4 Argon / Hydrogen   │
+│          Architecture         │   │    or Gemini 3.8 Flash (High) │
 ├───────────────────────────────┤   ├───────────────────────────────┤
 │ • Architecture & System Spec  │   │ • Subagent Implementers       │
 │ • Superpowers Planning Mode   │   │ • Subagent Reviewers          │
@@ -28,7 +28,7 @@ We use **Google Antigravity** paired with the **[Superpowers](https://github.com
 ```
 
 ### Model Role Assignment
-- **Planning & Architecture (Claude Opus / Sonnet):**
+- **Planning & Architecture (Claude 5.5 / Claude Opus):**
   - **Strengths:** High contextual rigor, structural reasoning, edge case detection, and specification design.
   - **Responsibilities:** Authoring the design spec (`specs/*.md`) and breaking down requirements into atomic, bite-sized tasks in an implementation plan (`plans/*.md`).
 - **Implementation & Verification (Gemini 4 Argon / Hydrogen / Gemini 3.8 Flash):**
