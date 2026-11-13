@@ -104,6 +104,7 @@ Deep-dive technical documentation lives under [`docs/`](docs/):
 | **[Architecture & Internals](docs/ARCHITECTURE.md)** | Module layout, data flow, canonical channel identity & v1.2 migration, bounded-concurrency polling pipeline, deduplication rules, celebration detection, persistence contracts, and section sorting |
 | **[Stream Providers & Parsers](docs/PROVIDERS.md)** | How YouTube (`/live` HTML + `ytInitialPlayerResponse`) and Twitch (key-free GraphQL) scraping work in detail, failure modes, and a step-by-step TDD guide to adding new platforms (e.g., Kick or RSS) |
 | **[Porting Guide](docs/PORTING.md)** | Building Linux/Windows/daemon frontends in Swift (`FoundationNetworking`, event bridging) and blueprint notes for KDE Plasma, GNOME Shell, or non-Swift hosts |
+| **[Working with AI Agents](docs/AGENTS.md)** | Workflow guide for human-agent collaboration: model stack (Claude Opus for planning, Gemini 4 / 3.8 for implementation), Superpowers workflow, prompting templates, and strict portability guardrails |
 | **[Changelog](CHANGELOG.md)** | Version history and release notes |
 
 ---
