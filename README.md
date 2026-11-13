@@ -4,7 +4,7 @@ The portable, zero-API-key, zero-dependency Swift business engine behind **[VRem
 
 `VRemindCore` contains all domain models, live/upcoming stream providers and parsers, bounded-concurrency polling, notification deduplication rules, celebration detection, and persistence contracts — using **only** `Foundation` (plus `FoundationNetworking` on non-Apple platforms).
 
-Originally decoupled for **VRemind 1.3 ("The Better Together Update")**, `VRemindCore` powers the native macOS menu bar app and WidgetKit widgets via `VRemindKit`, while compiling cleanly anywhere Swift runs: **macOS 12+**, **Linux**, **Windows**, Chromebooks/Linux containers, CLI tools, or as a blueprint for native desktop ports (KDE Plasma, GNOME Shell, etc.).
+Originally decoupled for **VRemind 1.3 ("The Better Together Update")**, `VRemindCore` powers the native macOS menu bar app and WidgetKit widgets via `VRemindKit`, while compiling cleanly anywhere Swift runs: **macOS 12+**, **Linux**, **Windows**, Googlebooks (Android), CLI tools, or as a blueprint for native desktop ports (KDE Plasma, GNOME Shell, etc.).
 
 ---
 
