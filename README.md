@@ -15,7 +15,7 @@ Originally decoupled for **VRemind 1.3 ("The Better Together Update")**, `VRemin
   - **Twitch** (`TwitchStreamProvider` + `TwitchResponseParser`): Queries Twitch's public web GraphQL endpoint (`gql.twitch.tv/gql`) for live stream status, title, start time, display name, and avatar — no Twitch developer account or OAuth token needed.
 - **Independent Multi-Platform Identity:** Tracks creators canonically by `(platform, handle)` (`youtube:@ironmouse` vs. `twitch:ironmouse`) so creators active on both platforms stay separate, with automatic migration of legacy v1.2 YouTube-only records.
 - **Bounded-Concurrency Polling Engine (`StreamMonitorEngine`):** Polls channels in chunks of `3` via `withTaskGroup`, uses an ephemeral zero-cache `URLSession` (`15s` request timeout), respects task cancellation, deduplicates live/upcoming alerts via stored notification IDs, and emits typed `MonitorEvent` updates.
-- **Multilingual Celebration Detection (`CelebrationDetector`):** Detects Birthday, Debut, and Anniversary milestones in English, Indonesian, and Japanese titles, plus Dec 31 developer birthdays.
+- **Multilingual Celebration Detection (`CelebrationDetector`):** Detects Birthday, Debut, and Anniversary milestones in English, Indonesian, and Japanese titles.
 - **Portable Persistence Contracts (`StorageProtocols`):** Defines `ChannelStorage` and `SettingsStorage` with pure-`Foundation` atomic JSON file implementations (`JSONFileChannelStorage`, `JSONFileSettingsStorage`).
 - **Zero External Dependencies:** Pure Swift Standard Library + `Foundation` (+ `FoundationNetworking` on non-Darwin targets).
 
